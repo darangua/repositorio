@@ -1,4 +1,5 @@
 <?php include('valida_acceso.php')?>
+<?php include ('./clases/Transacciones.php')?>
 <!doctype html>
 <html lang=''>
 <head>
@@ -38,7 +39,7 @@ AGREGAR
    <input type="text" name="anio" id="anio">
    </p>
 
-   <input type="button" name="enviar" value ="Enviar" onclick="Validar()">
+   <input type="button" name="enviar" value ="Enviar" onclick="AgregarP($id)">
    
 </body>
 </html>
